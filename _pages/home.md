@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "CVAMO - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "CVAMO Flanders Make core lab at Ghent University."
 sitemap: false
 permalink: /
 ---
