@@ -15,7 +15,7 @@ Furthermore, CVAMO is also part of Machineries & Factories (M&F). M&F is an indu
 <!--
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
+   
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -26,7 +26,7 @@ Furthermore, CVAMO is also part of Machineries & Factories (M&F). M&F is an indu
         <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
-    <!-- Items -->
+    
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
