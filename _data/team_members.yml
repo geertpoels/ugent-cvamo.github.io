@@ -1,3 +1,12 @@
+- name: Frederik Gailly
+  photo: Milan1.jpg
+  info: Associate professor
+  email: Frederik.Gailly@UGent.be
+  number_educ: 3
+  education1: Master Business Administration, Ghent University
+  education2: Master Applied Computer Science, Vrije Universiteit Brussen
+  education3: PhD in Business Administration, Ghent University
+  
 - name: Milan P Allan
   photo: Milan1.jpg
   info: Associate professor, started Jan 2015
