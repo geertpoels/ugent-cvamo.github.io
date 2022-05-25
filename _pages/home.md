@@ -67,5 +67,5 @@ We are grateful for funding from Ghent University and from [Flanders Make](https
 
 <figure class="second">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/UGent_logo.png" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/FM_logo.jpg" style="width: 110px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/FM_logo.jpg" style="width: 210px">
 </figure>
