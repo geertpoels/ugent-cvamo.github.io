@@ -6,4 +6,13 @@
     display: CEUR Workshop Proceedings
   highlight: 1
   news2: 
+  
+ - title: "Sharing platform ontology development : proof-of-concept"
+  image: 
+  description: A sharing platform is a digital platform that facilitates access to underutilized goods by renting or lending them to others. Users become less dependent on ownership which improves efficiency, sustainability, and the sense of community. The Sharing Economy (SE) is considered a complex domain because value co-creation can occur between multiple types of platform users. Developing platform software that offers the right functionality for the intended digital platform is therefore challenging. To address this complexity, an ontology can be utilized, which is an explicit specification of a conceptualization that provides a controlled vocabulary and shared meaning regarding a domain. The use of a sharing platform ontology allows for more effective communication and knowledge sharing amongst stakeholders in platform development and eventually drives the platform software development process. However, currently, it is not known how to develop such an ontology. In previous research, we developed the Digital Platform Ontology (DPO) and an extension of the DPO for describing platform business model choices. The DPO describes the digital platform domain in terms of digital platform types, including sharing platforms. However, a method to use the DPO and its business model extension for developing an organization-specific ontology that describes the functionality and business model of a specific existing or intended sharing platform was lacking. In this paper, we develop such a method using the Design Science Research Methodology (DSRM) and demonstrate it using a proof-of-concept based on the BlaBlaCar and Couchsurfing platforms.
+  link:
+    url: http://dx.doi.org/10.3390/su14042076
+    display: (2022) SUSTAINABILITY. 14(4)
+  highlight: 1
+  news2: 
  
