@@ -3,7 +3,7 @@
   description: While agile methodologies are commonly used in software development, researchers have identified many issues related to requirements elicitation in agile projects. Some of these issues relate to the complexity of managing and understanding user stories, which is a widely used requirements specification mechanism in Agile methodologies. This research proposes the automatic generation of conceptual models from the user stories and the corresponding Behavior-Driven Development acceptance criteria to help managing and understanding user stories. This paper discusses a proposed study to evaluate the usefulness of the auto-generated conceptual models from the user stories.
   authors: Abhimanyu Gupta and Geert Poels
   link:
-    url: http://hdl.handle.net/1854/LU-8753116
+    url: https://biblio.ugent.be/publication/8753116
     display: CEUR Workshop Proceedings
   highlight: 1
   news2: 
@@ -24,7 +24,7 @@
   authors: Anis Rahmawati Amna and Geert Poels
   link:
     url: http://dx.doi.org/10.3390/su14042076
-    display: (2022) SUSTAINABILITY. 14(4)
+    display: (2022) INFORMATION AND SOFTWARE TECHNOLOGY. 145.
   highlight: 1
   news2: 
  
