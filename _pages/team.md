@@ -24,7 +24,9 @@ Jump to [staff](#staff), [researchers](#researchers)
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <a href="{{ member.url }}">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  </a>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
