@@ -7,9 +7,55 @@ permalink: /research/
 ---
 
 # Research
-<iframe src="https://biblio.ugent.be/publication?embed=1&q=author+any+%22F683AB4A-F0ED-11E1-A9DE-61C894A0A6B4+F6794C86-F0ED-11E1-A9DE-61C894A0A6B4+F88A388C-F0ED-11E1-A9DE-61C894A0A6B4+F5C11EE0-F0ED-11E1-A9DE-61C894A0A6B4+1F61DBF4-F0EE-11E1-A9DE-61C894A0A6B4++F85A9762-F0ED-11E1-A9DE-61C894A0A6B4+1C4E8B9C-F0EE-11E1-A9DE-61C894A0A6B4+F84EE052-F0ED-11E1-A9DE-61C894A0A6B4+F6D05EFE-F0ED-11E1-A9DE-61C894A0A6B4+879F2326-4349-11E3-90BB-673911BDE39D%22&amp;hide_info=1&amp;hide_options=1"
-  width="100%"
-  height="600"
-  allowtransparency="true"
-  frameborder="0">
-</iframe>
+## Group highlights
+
+(For a full list of publications and patents see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))
+
+{% assign number_printed = 0 %}
+{% for publi in site.data.publist %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if publi.highlight == 1 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>{{ publi.title }}</pubtit>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  <p>{{ publi.description }}</p>
+  <p><em>{{ publi.authors }}</em></p>
+  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
+  <p> {{ publi.news2 }}</p>
+ </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<p> &nbsp; </p>
+
+
+## Full List of publications
+
+{% for publi in site.data.publist %}
+
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+{% endfor %}
+
