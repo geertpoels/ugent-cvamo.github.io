@@ -7,11 +7,9 @@ permalink: /research/
 ---
 
 # Research
-<iframe
-    allowtransparency="true"
-    frameborder="0"
-    width="100%"
-    heigth="100%"
-    src="https://biblio.ugent.be/list/dVao5ZbPdAtKWb6X1G5EF02GM70KW">
+<iframe src="https://biblio.ugent.be/publication?embed=1&q=author+any+%22F683AB4A-F0ED-11E1-A9DE-61C894A0A6B4+F6794C86-F0ED-11E1-A9DE-61C894A0A6B4+F88A388C-F0ED-11E1-A9DE-61C894A0A6B4+F5C11EE0-F0ED-11E1-A9DE-61C894A0A6B4+1F61DBF4-F0EE-11E1-A9DE-61C894A0A6B4++F85A9762-F0ED-11E1-A9DE-61C894A0A6B4+1C4E8B9C-F0EE-11E1-A9DE-61C894A0A6B4+F84EE052-F0ED-11E1-A9DE-61C894A0A6B4+F6D05EFE-F0ED-11E1-A9DE-61C894A0A6B4+879F2326-4349-11E3-90BB-673911BDE39D%22"
+  width="100%"
+  height="400"
+  allowtransparency="true"
+  frameborder="0">
 </iframe>
-
