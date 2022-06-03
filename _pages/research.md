@@ -10,6 +10,8 @@ permalink: /research/
 <iframe
     allowtransparency="true"
     frameborder="0"
+    width="100%"
+    heigth="100%"
     src="https://biblio.ugent.be/list/dVao5ZbPdAtKWb6X1G5EF02GM70KW">
 </iframe>
 
